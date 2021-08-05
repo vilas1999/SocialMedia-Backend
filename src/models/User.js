@@ -9,6 +9,9 @@ const UserModelSchema = new Schema({
 
 var b = "testing only"
 
+var c = "testing only"
+var d = "testing only"
+
 var UserModel = mongoose.model("UserModel1", UserModelSchema)
 
 module.exports = UserModels
